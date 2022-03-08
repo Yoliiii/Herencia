@@ -22,6 +22,10 @@ public class Main {
         Perro perro2 = new Perro("MiniThor");
         Tiburon tiburon2 = new Tiburon("Black");
         PezPayaso pezPayaso = new PezPayaso("Dori");
+        Zoo zoo = new Zoo();
+        zoo.añadirAnimal(gato1);
+        zoo.añadirAnimal(perro2);
+        zoo.añadirAnimal(pezPayaso);
 
         gato2.comunicarse();
         perro2.comunicarse();

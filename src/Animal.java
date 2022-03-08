@@ -33,7 +33,7 @@ public abstract class Animal {
      * El método respirar es común para el gato y el perro
      *
      */
-    public  abstract void respirar();
+    public abstract void respirar();
 
     /**
      * El método moverse es común para el gato y el perro
